@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Static Site</h1>
+    </header>
+    
+    <main>
+        <h2 id="greeting"></h2> <!-- Dynamic greeting message -->
+        <p>This is a simple static website served using Nginx.</p>
+        
+        <p id="click-count">Button clicked: 0 times</p> <!-- Click counter -->
+        <button onclick="changeBackgroundColor(); updateClickCount();">Click Me</button>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 My Static Site</p>
+    </footer>
+</body>
+</html>
+
